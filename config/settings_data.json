@@ -4444,6 +4444,7 @@
         "blocks": {
           "4bfc2276-914f-4f0b-b53e-dd332b5bc186": {
             "type": "image_with_text",
+            "disabled": true,
             "settings": {
               "layout": false,
               "frontpage_text_align": "left",
