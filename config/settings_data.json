@@ -4478,10 +4478,10 @@
           "product-has-options-template-8": {
             "type": "contact_form",
             "settings": {
-              "contact_heading": "Get in touch",
-              "contact_subheading": "Leave a message",
-              "contact_content": "<p>Use this text to include important information that you'd like your customers to be aware of when contacting you. You could include shop hours, email response times, other ways to contact you, or just some friendly text to encourage your customers to reach out.<\/p>",
-              "contact_text_position": "left",
+              "contact_heading": "got a question? drop us a line",
+              "contact_subheading": "",
+              "contact_content": "",
+              "contact_text_position": "center",
               "contact_text_alignment": "left"
             }
           }
