@@ -4449,16 +4449,6 @@
               "divider_border": true
             }
           },
-          "product-has-options-template-8": {
-            "type": "contact_form",
-            "settings": {
-              "contact_heading": "Get in touch",
-              "contact_subheading": "Leave a message",
-              "contact_content": "<p>Use this text to include important information that you'd like your customers to be aware of when contacting you. You could include shop hours, email response times, other ways to contact you, or just some friendly text to encourage your customers to reach out.<\/p>",
-              "contact_text_position": "left",
-              "contact_text_alignment": "left"
-            }
-          },
           "78094cda-5b08-4cbc-8065-2a1ab3c50be2": {
             "type": "image_with_text_overlay",
             "settings": {
@@ -4478,12 +4468,29 @@
               "button2_link": "",
               "button2_highlight": false
             }
+          },
+          "ab1145fd-4e86-443f-baed-f4dd59062abf": {
+            "type": "custom_html",
+            "settings": {
+              "custom_html": "<div id=\"insta-feed\"><\/div>"
+            }
+          },
+          "product-has-options-template-8": {
+            "type": "contact_form",
+            "settings": {
+              "contact_heading": "Get in touch",
+              "contact_subheading": "Leave a message",
+              "contact_content": "<p>Use this text to include important information that you'd like your customers to be aware of when contacting you. You could include shop hours, email response times, other ways to contact you, or just some friendly text to encourage your customers to reach out.<\/p>",
+              "contact_text_position": "left",
+              "contact_text_alignment": "left"
+            }
           }
         },
         "block_order": [
           "product-has-options-template-1",
-          "product-has-options-template-8",
-          "78094cda-5b08-4cbc-8065-2a1ab3c50be2"
+          "78094cda-5b08-4cbc-8065-2a1ab3c50be2",
+          "ab1145fd-4e86-443f-baed-f4dd59062abf",
+          "product-has-options-template-8"
         ],
         "settings": {
           "product_breadcrumb": false,
