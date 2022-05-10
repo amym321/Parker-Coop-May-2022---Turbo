@@ -4528,7 +4528,7 @@
           "thumbnail_position": "bottom-slider",
           "enable_shopify_product_badges": false,
           "enable_reviews_in_description": false,
-          "show_payment_button": true
+          "show_payment_button": false
         }
       }
     },
