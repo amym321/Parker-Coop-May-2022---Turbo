@@ -4010,7 +4010,7 @@
           "thumbnail_position": "bottom-slider",
           "enable_shopify_product_badges": false,
           "review_position": "next_to_gallery",
-          "show_payment_button": true,
+          "show_payment_button": false,
           "display_recently_viewed": false,
           "rv_title": "Recently Viewed Items",
           "rv_products_style": "grid",
@@ -4529,6 +4529,42 @@
           "enable_shopify_product_badges": false,
           "enable_reviews_in_description": false,
           "show_payment_button": false
+        }
+      },
+      "product-recently-viewed-template": {
+        "type": "product-recently-viewed-template",
+        "settings": {
+        }
+      },
+      "product-full-width-images-template": {
+        "type": "product-full-width-images-template",
+        "settings": {
+          "gallery_arrows": false,
+          "activate_zoom": false,
+          "enable_product_lightbox": true,
+          "activate_autoplay": false,
+          "slideshow_animation": "slide",
+          "product_images_position": "left",
+          "product_thumbs": false,
+          "thumbnail_position": "bottom-slider",
+          "product_breadcrumb": false,
+          "display_vendor": false,
+          "display_sku": false,
+          "display_savings": true,
+          "show_payment_button": false,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "product_description_position": "top",
+          "enable_shopify_product_badges": false,
+          "review_position": "next_to_gallery",
+          "display_recently_viewed": false,
+          "rv_title": "Recently Viewed",
+          "rv_products_style": "grid",
+          "rv_max_display": 6,
+          "rv_per": 3,
+          "toggle": false
         }
       }
     },
