@@ -3631,7 +3631,7 @@
           "thumbnail_position": "bottom-slider",
           "enable_shopify_product_badges": false,
           "review_position": "next_to_gallery",
-          "show_payment_button": true,
+          "show_payment_button": false,
           "display_recently_viewed": false,
           "rv_title": "Recently Viewed Items",
           "rv_products_style": "grid",
