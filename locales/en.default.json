@@ -364,7 +364,7 @@
       "subtotal": "Subtotal",
       "discount": "Discount",
       "update": "Update Subtotal",
-      "checkout": "Checkout"
+      "checkout": "Checkout  with Credit Card"
     },
     "shipping_calculator": {
       "estimated_shipping": "estimated shipping",
