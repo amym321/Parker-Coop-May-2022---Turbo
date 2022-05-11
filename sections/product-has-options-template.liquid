@@ -4,6 +4,20 @@
 - Uses blocks
 {% endcomment %}
 
+{% style %}
+  .image-with-text .button {
+    background: #9d8661 !important;
+    color: #fff !important;
+    border: 1px solid #9d8661 !important;
+    width: 40%;
+    min-width: 200px;
+  }
+  .image-with-text .button:hover {
+    background-color: #8b6a1b !important;
+    border: 1px solid #8b6a1b !important;
+  }
+{% endstyle %}
+
 {% assign sidebar = false %}
 
 <a name="pagecontent" id="pagecontent"></a>
@@ -353,7 +367,7 @@
             {% include 'include-image-with-text-overlay', type: 'block' %}
 
             {% comment %} moved Yotpo to here - am {% endcomment %}
-            <div id="yotpo-product-reviews" class="yotpo yotpo-main-widget" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}" data-price="{{ variant.price | money_without_currency }}"
+            <div style="max-width: 1200px;"  id="yotpo-product-reviews" class="yotpo yotpo-main-widget" data-product-id="{{ product.id }}" data-name="{{ product.title | escape }}" data-url="{{ shop.url }}{{ product.url }}" data-image-url="{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}" data-price="{{ variant.price | money_without_currency }}"
               data-currency=“{{ shop.currency }}” data-description=“{{ product.description | escape }}“>
               {%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}
               {%- assign time_now = 'now' | date: '%s' %}
