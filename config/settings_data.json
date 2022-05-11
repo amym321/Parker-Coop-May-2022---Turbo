@@ -4446,7 +4446,7 @@
             "type": "image_with_text",
             "settings": {
               "layout": false,
-              "frontpage_text_align": "center",
+              "frontpage_text_align": "left",
               "frontpage_image_position": "left",
               "image": "shopify:\/\/shop_images\/RB73_Rainhood_sparkcatcher_Piquia_4.png",
               "image_crop": "center",
