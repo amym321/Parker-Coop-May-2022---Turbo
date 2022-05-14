@@ -302,33 +302,40 @@
                       <div class="description">{{ block.settings.text }}</div>
                     {% endif %}
                     {% if block.settings.button_label != blank %}
-
-                    {% comment %} RB73 products link to the Options PDP - am {% endcomment %}
-                      {% if product.title contains 'Quercus' and template == 'product.has.options' %}
-                      <a href="https://parkerandcoop.com/products/quercus-fireplace-options" class="button">
-                        {{ block.settings.button_label }}
-                      </a>
-                      {% elsif product.title contains 'Quaruba' template == 'product.has.options' %}
-                      <a href="https://parkerandcoop.com/products/quaruba-fireplace-options" class="button">
-                        {{ block.settings.button_label }}
-                      </a>
-                      {% elsif product.title contains 'Piqua' template == 'product.has.options' %}
-                      <a href="https://parkerandcoop.com/products/piquia-fireplace-options" class="button">
-                        {{ block.settings.button_label }}
-                      </a>
-                      {% elsif product.title contains 'Bijuga' template == 'product.has.options' %}
-                      <a href="https://parkerandcoop.com/products/bijuga-fireplace-options" class="button">
-                        {{ block.settings.button_label }}
-                      </a>
-                      {% elsif product.title contains 'Fennek' template == 'product.has.options' %}
-                      <a href="https://parkerandcoop.com/products/fennek-fireplace-options" class="button">
-                        {{ block.settings.button_label }}
-                      </a>
-                      {% else %}
-                        <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} class="button">
-                          {{ block.settings.button_label }}
-                        </a>
-                      {% endif %}
+                      {% comment %} RB73 products link to the Options PDP - am {% endcomment %}
+                        {% if product.title contains 'Quercus' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/quercus-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Quaruba' and product.title contains 'L' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/quaruba-l-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Quaruba' and  product.title contains 'XL' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/quaruba-xl-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Quaruba' and product.title contains 'XXL' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/quaruba-xxl-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Piqua' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/piquia-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Bijuga' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/bijuga-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% elsif product.title contains 'Fennek' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/fennek-fireplace-options" class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% else %}
+                          <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} class="button">
+                            {{ block.settings.button_label }}
+                          </a>
+                        {% endif %}
 
                     {% endif %}
                   </div>
