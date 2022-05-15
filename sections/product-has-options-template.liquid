@@ -327,10 +327,14 @@
                           <a href="https://parkerandcoop.com/products/bijuga-fireplace-options" class="button">
                             {{ block.settings.button_label }}
                           </a>
-                        {% elsif product.title contains 'Fennek' and template == 'product.has.options' %}
-                          <a href="https://parkerandcoop.com/products/fennek-fireplace-options" class="button">
+                        {% elsif product.title contains 'Fennek' and product.title contains '50' and template == 'product.has.options' %}
+                          <a href="https://parkerandcoop.com/products/fennek-50-fireplace-options" class="button">
                             {{ block.settings.button_label }}
                           </a>
+                          {% elsif product.title contains 'Fennek' and product.title contains '80' and template == 'product.has.options' %}
+                            <a href="https://parkerandcoop.com/products/fennek-80-fireplace-options" class="button">
+                              {{ block.settings.button_label }}
+                            </a>
                         {% else %}
                           <a {% if block.settings.link != blank %}href="{{ block.settings.link }}"{% endif %} class="button">
                             {{ block.settings.button_label }}
