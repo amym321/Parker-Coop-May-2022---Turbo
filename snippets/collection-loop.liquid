@@ -71,7 +71,12 @@
                     <div class="collection-details">
                       <span class="title">{{ link_title }}</span>
                     </div>
-                    <a href="{{ link.url }}" title="{{ link_title }}"><span class="view_all">{{ 'collections.general.view_all' | t }}</span></a>
+
+                    {% comment %} don't display 'view all' button on RB73 products. Onlu Quaruba Collection - am {% endcomment %}
+                    {% if link_title contains 'Quaruba' %}
+                      <a href="{{ link.url }}" title="{{ link_title }}"><span class="view_all">{{ 'collections.general.view_all' | t }}</span></a>
+                    {% endif %}
+
                 </div>
               </div>
           {% endif %}
