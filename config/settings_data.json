@@ -4444,6 +4444,7 @@
         "blocks": {
           "4bfc2276-914f-4f0b-b53e-dd332b5bc186": {
             "type": "image_with_text",
+            "disabled": true,
             "settings": {
               "layout": true,
               "frontpage_text_align": "left",
@@ -4458,6 +4459,7 @@
           },
           "product-has-options-template-1": {
             "type": "divider",
+            "disabled": true,
             "settings": {
               "divider_spacing": 30,
               "divider_border": true
