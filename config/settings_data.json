@@ -3769,13 +3769,33 @@
               "text_position": "center",
               "text_align": "center"
             }
+          },
+          "918324bf-9442-45a2-8d75-eb551e761fba": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/RB73-Quaruba-parker-and-coop-BANNER.jpg",
+              "pretext": "",
+              "title": "Your headline",
+              "subtitle": "",
+              "caption_background": false,
+              "caption_background_transparency": false,
+              "button1": "",
+              "button1_link": "",
+              "button1_highlight": false,
+              "button2": "",
+              "button2_link": "",
+              "button2_highlight": false,
+              "text_position": "center",
+              "text_align": "center"
+            }
           }
         },
         "block_order": [
           "1599238618259",
           "aa37f5ce-fd7a-4224-882c-44579d76a0c5",
           "730aeb7d-af85-44b0-bb5a-0530a4f95195",
-          "d64af0c9-dace-449a-b985-796329ca6168"
+          "d64af0c9-dace-449a-b985-796329ca6168",
+          "918324bf-9442-45a2-8d75-eb551e761fba"
         ],
         "settings": {
           "wide_display": true,
