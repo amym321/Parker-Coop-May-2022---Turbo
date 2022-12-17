@@ -85,7 +85,8 @@
       "next_article_html": "Suivant →",
       "tags": "Labels",
       "author": "Auteur",
-      "comment_meta_html": "<strong>{{ author }}<\/strong> le <strong><time datetime=\"{{ date }}\">{{ date }}<\/time><\/strong>"
+      "comment_meta_html": "<strong>{{ author }}<\/strong> le <strong><time datetime=\"{{ date }}\">{{ date }}<\/time><\/strong>",
+      "read_time": "lecture minimale"
     },
     "counts": {
       "comments_with_count": {
@@ -362,7 +363,8 @@
       "subtotal": "Sous-total",
       "discount": "Remise",
       "update": "Mettre à jour le sous-total",
-      "checkout": "Paiement"
+      "checkout": "Paiement",
+      "maximum_quantity": "Quantité maximale"
     },
     "shipping_calculator": {
       "estimated_shipping": "estimation des frais de livraison",
