@@ -85,7 +85,8 @@
       "next_article_html": "Nächster →",
       "tags": "Kategorie",
       "author": "Autor",
-      "comment_meta_html": "<strong>{{ author }}<\/strong> am <strong><time datetime=\"{{ date }}\">{{ date }}<\/time><\/strong>"
+      "comment_meta_html": "<strong>{{ author }}<\/strong> am <strong><time datetime=\"{{ date }}\">{{ date }}<\/time><\/strong>",
+      "read_time": "Minute gelesen"
     },
     "counts": {
       "comments_with_count": {
@@ -362,7 +363,8 @@
       "subtotal": "Zwischensumme",
       "discount": "Rabatt",
       "update": "Aktualisierte Zwischensumme",
-      "checkout": "Kasse"
+      "checkout": "Kasse",
+      "maximum_quantity": "Maximale Menge"
     },
     "shipping_calculator": {
       "estimated_shipping": "Geschätzter Versand",
@@ -423,6 +425,15 @@
       "items_with_count": {
         "one": "{{ count }} Artikel",
         "other": "{{ count }} Artikel"
+      }
+    }
+  },
+  "shopify": {
+    "notices": {
+      "cart": {
+        "less_than_minimum": "Dieses Element hat mindestens %{min}.",
+        "more_than_maximum": "Dieser Artikel hat ein Maximum von %{max}.",
+        "not_respect_step": "Sie können dieses Element nur in Vielfachen von %{step} hinzufügen."
       }
     }
   }
